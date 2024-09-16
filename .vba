@@ -1,7 +1,7 @@
 // Define the variables
 VIX = close // Replace "VIX" with the actual ticker for the VIX index in ProRealTime
 currentPrice = close // This is the current price of the asset (e.g., US500)
-movingAvg = average[45](close) // 45-period Simple Moving Average
+movingAvg = average[30](close) // 45-period Simple Moving Average
 
 // Formula calculation
 deltaFormula = (VIX / 100) + ((currentPrice - movingAvg) / movingAvg) + ((VIX / 100) * sqrt(30 / 365) / 2)
