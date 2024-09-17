@@ -13,7 +13,7 @@ The **Delta Indicator** is designed for use in options trading, particularly for
 - [Customization](#customization)
 - [Plotting](#plotting)
 - [Example Use Case](#example-use-case)
-- [License](#license)
+
 
 ## Formula
 
@@ -79,11 +79,6 @@ This Delta Indicator is useful for options traders, particularly those looking t
 
 The chart shown in the image provides a clear view of the calculated delta as plotted below the asset’s price chart, making it easy to interpret in real-time trading scenarios.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
 
 This guide should help you configure and use the Delta Indicator in **ProRealTime**. Adjust the parameters and formulas to suit your specific trading strategy.
 
